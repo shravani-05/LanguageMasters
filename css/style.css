@@ -1,0 +1,93 @@
+body,html{
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Anonymous", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6{
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	background-attachment: fixed;
+}
+.pimg1{
+	background-image: url('../foot/img.jpg');
+	min-height: 100%;
+}
+
+.pimg2{
+	background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/20230506112814/C-Programming-Language.png');
+	background-position: top;
+	min-height: 400px;
+}
+
+.pimg3{
+	background-image: url('https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230703144619/CPP-Language.png');
+	min-height: 400px;
+}
+.pimg4{
+	background-image: url('https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230305131111/Java-programming.png');
+	min-height: 400px;
+	
+}
+.pimg5{
+	background-image: url('https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230305181456/Python4.png');
+	min-height: 400px;
+	}
+.pimg6{
+	background-image: url('https://www.geeksforgeeks.org/wp-content/uploads/javascript.png');
+	min-height: 400px;
+}
+.section{
+	text-align: center;
+	padding: 50px 80px;
+}
+
+.section-light{
+	background-color: #f4f4f4;
+	color: #666;
+}
+
+.section-dark{
+	background-color: #282e34;
+	color: #ddd;
+}
+
+.ptext{
+	position: absolute;
+	font-size: 27px;
+	font-family: 'Anonymous';
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #ddd;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.ptext .boder{
+	background-color: white;
+	color: black;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 3px;
+
+}
+
+.ptext .boder.trans{
+	background-color: transparent;
+}
+
+@media(max-width: 568px){
+	.pimg1, .pimg2, .pimg3{
+		background-attachment: scroll;
+	}
+}
